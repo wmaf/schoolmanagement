@@ -32,6 +32,26 @@ public class students {
     }
 
     public void setFeesUpdate(int fees) {
-        this.feesPaid + = fees;
+        this.feesPaid += fees;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    public int getFeesTotal() {
+        return feesTotal;
     }
 }
